@@ -1,4 +1,4 @@
-SELECT U.user As "usuario", COUNT(H.user_id) AS "qt_de_musicas_ouvidas", ROUND(SUM(M.duration / 60), 2)  AS total_minuto
+SELECT U.user As "usuario", COUNT(H.user_id) AS "qt_de_musicas_ouvidas", ROUND(SUM(M.duration / 60), 2)  AS total_minutos
 FROM user AS U
 INNER JOIN
 history AS H ON U.id = H.user_id
