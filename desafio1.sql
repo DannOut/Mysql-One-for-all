@@ -111,7 +111,7 @@ VALUES ('Barbara Liskov', 82, 1),
 ('Robert Cecil Martin', 58, 1),
 ('Ada Lovelace', 37, 2),
 ('Martin Fowler', 46, 2),
-('Sandi Metiz', 58, 2),
+('Sandi Metz', 58, 2),
 ('Paulo Freire', 19, 3),
 ('Bell Hooks', 26, 3),
 ('Christopher Alexander', 85, 4),
@@ -134,7 +134,7 @@ VALUES ('Renaissance', 2022, 1),
 
 INSERT INTO SpotifyClone.music (name, duration, album_id)
 VALUES ('BREAK MY SOUL', 279, 1),
-("VIRGO'S", 369, 1),
+("VIRGO’S GROOVE", 369, 1),
 ("ALIEN SUPERSTAR", 116, 1),
 ("Don’t Stop Me Now", 203, 2),
 ("Under Pressure", 152, 3),
@@ -149,10 +149,10 @@ VALUES (1, 1), (1, 2), (1, 3),
 (2, 1), (2, 3), (3, 2), (4, 4), (5, 5), (5, 6),
 (6, 6), (6, 1), (7, 6), (9, 3), (10, 2);
 
-INSERT INTO SpotifyClone.history ( musicas_id, user_id, reproduction_date)
+INSERT INTO SpotifyClone.history ( user_id, musicas_id, reproduction_date)
 VALUES (1, 8, "2022-02-28 10:45:55"), (1, 2, "2020-05-02 05:30:35"), (1, 10, "2020-03-06 11:22:33"),
 (2, 10, "2022-08-05 08:05:17"), (2, 7, "2020-01-02 07:40:33"),
-(3, 10, "2020-11-13 16:55:13"), (3, 7, "2020-12-05 18:38:30"),
+(3, 10, "2020-11-13 16:55:13"), (3, 2, "2020-12-05 18:38:30"),
 (4, 8, "2021-08-15 17:10:10"),
 (5, 8, "2022-01-09 01:44:33"), (5, 5, "2020-08-06 15:23:43"),
 (6, 7, "2017-01-24 00:31:17"), (6, 1, "2017-10-12 12:35:20"),
